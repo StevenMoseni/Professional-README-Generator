@@ -3,7 +3,7 @@ Professional README Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Description
-This app will allow users to quickly and easily create a professional README.md file (Such as this one :) by using a command-line application to generate one. 
+I created this application to allow users to quickly and easily create a professional README.md file (Such as this one :) by using a command-line application to generate one. 
 
 # Table of Contents 
 * [Installation](#-Installation)
@@ -14,7 +14,11 @@ This app will allow users to quickly and easily create a professional README.md
 * [Questions](#-Contact-Information)
   
 # Installation
-The application will be invoked with the following command:
+The application will run with the following command:
+
+```
+node index.js
+```
 # Usage
 node index.js
 # License 
@@ -27,4 +31,9 @@ run in command line
 # Contact Information 
 * Contact Email: StevenAMoseni@gmail.com
 * GitHub Username: StevenMoseni
+
+Deployed Link: https://stevenmoseni.github.io/Professional-README-Generator/.
+
+GitHub Link: https://github.com/StevenMoseni/Professional-README-Generator
+
 
