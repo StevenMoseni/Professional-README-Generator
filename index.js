@@ -1,7 +1,7 @@
 const fs = require("fs");
-
+const path = require("path");
 const inquirer = require("inquirer");
-
+const folderPath = path.join(__dirname, "example");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 
@@ -119,6 +119,9 @@ function init() {
     inquirer.prompt(questions).then((data) => {
         console.log(JSON.stringify(data, null, " "));
         data.getLicense = getLicense(data.license);
+        if(!fs.existsSync(folderPath)){
+            fs.mkdirSync(folderPath);
+        }
         writeToFile("./example/README.md", data);
     });
 }

@@ -2,6 +2,7 @@ function generateMarkdown(data) {
   return `
 # Project Title
 ${data.title}
+
 ${data.getLicense}
 
 # Description
